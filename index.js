@@ -5,6 +5,10 @@
 // Prompt 2:
 // Print an array of all the drinks.
 
+const coffeeMenu = require('./coffee_data');
+
+console.log(coffeeMenu.map(item => item.name));
+
 // Prompt 3
 // Print an array of drinks that cost 5 and under.
 
